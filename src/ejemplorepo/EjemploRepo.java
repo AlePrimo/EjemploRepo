@@ -16,6 +16,12 @@ public class EjemploRepo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        System.out.println("Hola, mundo!");
+        
+        Caramelo candyLemmon = new Caramelo("Limon", 4);
+        
+        System.out.println(candyLemmon.getSabor() + " " + candyLemmon.getCantidadPaquete());
     }
     
 }
