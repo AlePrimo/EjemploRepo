@@ -22,6 +22,9 @@ public class EjemploRepo {
         Caramelo candyLemmon = new Caramelo("Limon", 4);
         
         System.out.println(candyLemmon.getSabor() + " " + candyLemmon.getCantidadPaquete());
+        
+        Alfajor jorgito=new Alfajor("Chocolate", 300);
+        
     }
     
 }
