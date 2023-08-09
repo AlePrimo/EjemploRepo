@@ -25,6 +25,7 @@ public class EjemploRepo {
         
         Alfajor jorgito=new Alfajor("Chocolate", 300);
         
+        System.out.println(jorgito.getSabor());
     }
     
 }
